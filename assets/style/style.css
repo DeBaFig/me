@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn i {
+    font-size: 2em;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none;
+}
+
+#video-box {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#video-intro {
+    max-width: 600px;
+    display: block;
+    right: 0;
+    bottom: 0;
+}
+
+.offcanvas-start {
+    width: 250px;
+}
+
+#navbar-links li .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: transparent;
+}
+
+#navbar-links i {
+    margin-right: 10%;
+}
