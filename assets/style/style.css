@@ -47,3 +47,8 @@ body {
 #navbar-links i {
     margin-right: 10%;
 }
+
+#my-picture {
+    max-width: 400px;
+    flex-shrink: 3;
+}
