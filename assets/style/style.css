@@ -52,3 +52,12 @@ body {
     max-width: 400px;
     flex-shrink: 3;
 }
+
+#icon-find button {
+    border-color: transparent;
+}
+
+#icon-find form {
+    max-width: 300px;
+    margin: 0 auto;
+}

@@ -38,7 +38,7 @@
                         </button>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" disabled>
+                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" onclick="location.href='about.html';">
                                <i class="fa-solid fa-id-card"></i>About me
                         </button>
                     </li>
@@ -53,7 +53,8 @@
                         </button>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" onclick="location.href='contact.html';">
+
+                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" disabled>
                             <i class="fa-solid fa-address-book"></i>Contact
                         </button>
                     </li>
@@ -63,28 +64,43 @@
 
 
     </header>
-    <div class="container-fluid text-white p-5 align-items-center ">
-        <img id="my-picture" class=" rounded float-sm-start p-2 w-75" src="assets/img/me.jpg" alt="" srcset="">
-        <div class="container-fluid">
-            <h1>About me</h1>
-            <div class="justify-content-start">
-
-                <p>I'm 31, the mom of an adorable boy and a baby. I'm living in the countryside of Brazil, in Santa Catarina, Joinville. I've always attracted by technologies, but only in 2019 did I save enough money to study computer programming at Seneca
-                    in Canada, however, when Covid-19 came my plans had to change, I've already done 2 of 4 semesters (online), after those, I got pregnant and decided to stay close of the family in Brazil to raise my kids.</p>
-                <p>As a professional, I've always put effort to do my best no matter how small the task may be. I love learning new things and sharing with my family and colleagues, I firmly believe that knowledge is what made homo sapiens different from
-                    other animals, we share and learn pieces of stuff without the need to recreate the wheel every time.</p>
-                <p>I've worked for a multinational corporation as an audio and video technician at TV Globo in Rio de Janeiro - Brazil, where I've learned a lot of telecommunications technologies and helped the team during amazing events such as the FIFA
-                    World Cup 2014(Brazil) and 2018(Russia), Olympics 2016 (Brazil). Now I'm looking for a different challenge I decide to be a developer, not only because I decided not to believe that there is no place for me in STEM jobs because I'm
-                    31, a woman, and a mom of 2, but also because I've always loved learning new things every day, and for me is inspiring the way the tech community have to develop an engine to keep learn even with the fastest changes that we ever saw.</p>
-                <p>I'm not currently working in any company, I've been working on my projects, family, doing boot camps and courses to learn more about the front-end, so if you are interested in contacting me with a project or a job offer please do so.</p>
-            </div>
+    <div id="icon-find" class="container text-white text-center mt-5 mb-5 pt-5 align-self-auto">
+        <h3>
+            <p><i class="fa-solid fa-terminal"></i>$ find . -name denize</p>
+        </h3>
+        <button type="button" class="btn btn-outline-light" title='GitHub' onclick="location.href= 'https://github.com/DeBaFig' "><i class="fa-brands fa-github"></i></button>
+        <button type="button" class="btn btn-outline-light" title='CodePen' onclick="location.href= 'https://codepen.io/debafig' "><i class="fa-brands fa-codepen"></i></button>
+        <button type="button" class="btn btn-outline-light" title='Stack Overflow' onclick="location.href= 'https://pt.stackoverflow.com/users/276536/debafig' "><i class="fa-brands fa-stack-overflow"></i></button>
+        <button type="button" class="btn btn-outline-light" title='LinkedIn' onclick="location.href= 'https://www.linkedin.com/in/dbfigueiredo/' "><i class="fa-brands fa-linkedin"></i></button>
+        <button type="button" class="btn btn-outline-light" title='Twitter' onclick="location.href= 'https://twitter.com/Dbassi91' "><i class="fa-brands fa-twitter"></i></button>
+        <button type="button" class="btn btn-outline-light" title='Facebook' onclick="location.href= 'https://www.facebook.com/d.bassi91/' "><i class="fa-brands fa-facebook"></i></button>
+        <button type="button" class="btn btn-outline-light" title='Whatsapp' onclick="location.href= 'https://wa.me/qr/VMVHOV7CIFHYP1' "><i class="fa-brands fa-whatsapp"></i></button>
+        <button type="button" class="btn btn-outline-light" title='About.me' onclick="location.href= 'https://about.me/denizefigueiredo' "><i class="fa-solid fa-qrcode"></i></button>
+        <div class="m-2 mt-2">
+            <h4>
+                <p><i class="fa-solid fa-terminal"></i> $ mail -s $SUBJECT_CONTACT denize.f.bassi@gmail.com
+                    < $MESSAGE_CONTACT </p>
+            </h4>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form action="https://formspree.io/f/mwkynyak" method="POST">
+                <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">SUBJECT_CONTACT=</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">MAIL_CONTACT=</label>
+                    <input type="mail" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                    <label for="message-text" class="col-form-label">MESSAGE_CONTACT</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                </div>
+            </form>
         </div>
     </div>
 
-    <footer class="mastfoot fixed-bottom">
-        <div class="inner text-white text-center">
-            <p>by Denize 2022</p>
-        </div>
+
+
     </footer>
 
     <!-- Bootstrap Bundle with Popper -->
