@@ -64,7 +64,7 @@
 
 
     </header>
-    <div id="icon-find" class="container text-white text-center mt-5 mb-5 pt-5 align-self-auto">
+    <div id="icon-find" class="container text-white text-center mt-2 mb-5 pt-5 align-self-auto">
         <h3>
             <p><i class="fa-solid fa-terminal"></i>$ find . -name denize</p>
         </h3>
@@ -76,25 +76,27 @@
         <button type="button" class="btn btn-outline-light" title='Facebook' onclick="location.href= 'https://www.facebook.com/d.bassi91/' "><i class="fa-brands fa-facebook"></i></button>
         <button type="button" class="btn btn-outline-light" title='Whatsapp' onclick="location.href= 'https://wa.me/qr/VMVHOV7CIFHYP1' "><i class="fa-brands fa-whatsapp"></i></button>
         <button type="button" class="btn btn-outline-light" title='About.me' onclick="location.href= 'https://about.me/denizefigueiredo' "><i class="fa-solid fa-qrcode"></i></button>
-        <div class="m-2 mt-2">
+        <div class="m-2 mt-5">
             <h4>
-                <p><i class="fa-solid fa-terminal"></i> $ mail -s $SUBJECT_CONTACT denize.f.bassi@gmail.com
-                    < $MESSAGE_CONTACT </p>
+                <p><i class="fa-solid fa-terminal"></i> $ mail -s $SUBJECT denize.f.bassi@gmail.com
+                    < $MESSAGE </p>
             </h4>
             <!-- modify this form HTML and place wherever you want your form -->
             <form action="https://formspree.io/f/mwkynyak" method="POST">
                 <div class="form-group">
-                    <label for="recipient-name" class="col-form-label">SUBJECT_CONTACT=</label>
-                    <input type="text" class="form-control" id="recipient-name">
+                    <label for="recipient-name" class="col-form-label">SUBJECT=</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="--help" required>
                 </div>
                 <div class="form-group">
-                    <label for="recipient-name" class="col-form-label">MAIL_CONTACT=</label>
-                    <input type="mail" class="form-control" id="recipient-name">
+                    <label for="recipient-name" class="col-form-label">MAIL=</label>
+                    <input type="mail" class="form-control" id="recipient-name" placeholder="name@example.com" required>
                 </div>
                 <div class="form-group">
-                    <label for="message-text" class="col-form-label">MESSAGE_CONTACT</label>
-                    <textarea class="form-control" id="message-text"></textarea>
+                    <label for="message-text" class="col-form-label">MESSAGE=</label>
+                    <textarea class="form-control" id="message-text" placeholder="echo 'Type your message here.'" required></textarea>
                 </div>
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                <button type="submit" class="btn btn-outline-light btn-lg mt-4 w-100">Submit</button>
             </form>
         </div>
     </div>
