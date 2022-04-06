@@ -10,6 +10,9 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+/* Navbar and btn style */
+
 .btn i {
     font-size: 2em;
 }
@@ -18,6 +21,24 @@ body {
 .btn:focus {
     box-shadow: none;
 }
+
+.offcanvas-start {
+    width: 250px;
+}
+
+#navbar-links i {
+    margin-right: 10%;
+}
+
+#navbar-links li .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: transparent;
+}
+
+
+/* Index page - video background */
 
 #video-box {
     display: flex;
@@ -33,31 +54,32 @@ body {
     bottom: 0;
 }
 
-.offcanvas-start {
-    width: 250px;
-}
 
-#navbar-links li .btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-color: transparent;
-}
-
-#navbar-links i {
-    margin-right: 10%;
-}
+/* About me page */
 
 #my-picture {
     max-width: 400px;
     flex-shrink: 3;
+    padding: 5%;
+    margin-right: 2%;
 }
 
-#icon-find button {
+
+/* contact page */
+
+#icon-find a {
     border-color: transparent;
 }
 
 #icon-find form {
     max-width: 300px;
+    margin: 0 auto;
+}
+
+
+/* skill page */
+
+#skill-btn {
+    max-width: 500px;
     margin: 0 auto;
 }

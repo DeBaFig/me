@@ -15,11 +15,12 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/responsive.css">
 
-    <title>Denize - About Me</title>
+    <title>Denize's Skills & Experiences</title>
 </head>
 
-<body class="overflow-auto">
+<body>
     <header>
         <nav class="navbar bg-black">
             <div class="container">
@@ -38,7 +39,7 @@
                         </button>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" disabled>
+                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" onclick="location.href='about.html';">
                                <i class="fa-solid fa-id-card"></i>About me
                         </button>
                     </li>
@@ -48,7 +49,7 @@
                         </button>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" onclick="location.href='skills.html';"> 
+                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" disabled> 
                             <i class="fa-solid fa-book-open-reader"></i>Skills
                         </button>
                     </li>
@@ -63,30 +64,18 @@
 
 
     </header>
-    <div class="container-fluid text-white p-5 align-items-center ">
-        <img id="my-picture" class=" rounded float-sm-start p-2 w-75" src="assets/img/me.jpg" alt="" srcset="">
-        <div class="container-fluid">
-            <h1>About me</h1>
-            <div class="justify-content-start">
-
-                <p>I'm 31, the mom of an adorable boy and a baby. I'm living in the countryside of Brazil, in Santa Catarina, Joinville. I've always attracted by technologies, but only in 2019 did I save enough money to study computer programming at Seneca
-                    in Canada, however, when Covid-19 came my plans had to change, I've already done 2 of 4 semesters (online), after those, I got pregnant and decided to stay close of the family in Brazil to raise my kids.</p>
-                <p>As a professional, I've always put effort to do my best no matter how small the task may be. I love learning new things and sharing with my family and colleagues, I firmly believe that knowledge is what made homo sapiens different from
-                    other animals, we share and learn pieces of stuff without the need to recreate the wheel every time.</p>
-                <p>I've worked for a multinational corporation as an audio and video technician at TV Globo in Rio de Janeiro - Brazil, where I've learned a lot of telecommunications technologies and helped the team during amazing events such as the FIFA
-                    World Cup 2014(Brazil) and 2018(Russia), Olympics 2016 (Brazil). Now I'm looking for a different challenge I decide to be a developer, not only because I decided not to believe that there is no place for me in STEM jobs because I'm
-                    31, a woman, and a mom of 2, but also because I've always loved learning new things every day, and for me is inspiring the way the tech community have to develop an engine to keep learn even with the fastest changes that we ever saw.</p>
-                <p>I'm not currently working in any company, I've been working on my projects, family, doing boot camps and courses to learn more about the front-end, so if you are interested in contacting me with a project you can take a look in my <a href="assets/doc/CV Denize Bassi Figueiredo.pdf"
-                        target="_blank" class="link-warning">resume</a> or
-                    <a href="contact.html" target="_self" class="link-warning">contact me</a>!</p>
-            </div>
-        </div>
+    <div class="btn-group-vertical" id="skill-btn">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+        <button type="button" class="btn btn-primary">3</button>
+        <button type="button" class="btn btn-primary">4</button>
     </div>
-
     <footer class="mastfoot fixed-bottom">
         <div class="inner text-white text-center">
             <p>by Denize 2022</p>
         </div>
+        </div>
+
     </footer>
 
     <!-- Bootstrap Bundle with Popper -->
