@@ -20,68 +20,149 @@
     <title>Denize's Portifolio</title>
 </head>
 
-<body>
+<body class="mx-auto">
     <header>
-        <nav class="navbar bg-black">
-            <div class="container">
-                <button class="btn rounded bg-black text-light" type="button" data-bs-toggle="offcanvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
-                    <i id="icon-menu" class="fa-solid fa-terminal "></i>
-                </button>
-            </div>
-            <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
-                <button type="button" class="btn rounded bg-dark text-light align-self-end justify-content-start" data-bs-dismiss="offcanvas" aria-label="Close">
-                    <i class="fa-solid fa-angles-left"></i>
-                </button>
-                <ul class="navbar-nav" id="navbar-links">
-                    <li>
-                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" disabled>
-                            <i class="fa-solid fa-house-laptop"></i>Home
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" onclick="location.href='about.html';">
-                               <i class="fa-solid fa-id-card"></i>About me
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" onclick="location.href='projects.html';">
-                            <i class="fa-solid fa-list-check"></i>Projects
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" onclick="location.href='skills.html';"> 
-                            <i class="fa-solid fa-book-open-reader"></i>Skills
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-outline-light btn-lg mt-4 w-100" onclick="location.href='contact.html';">
-                            <i class="fa-solid fa-address-book"></i>Contact
-                        </button>
-                    </li>
-                </ul>
-            </div>
+        <nav id="nav-box" class="navbar bg-black justify-content-center fixed-top">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class=" btn btn-outline-light" href="#home" title='Home'><i class="fa-solid fa-house-laptop"></i><span id="span-nav">Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class=" btn btn-outline-light" href="#knowhow" title='Know-How'><i class="fa-solid fa-book-open-reader"></i><span id="span-nav">Know-How</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-light" href="#projects" title='Projects'><i class="fa-solid fa-list-check"></i><span id="span-nav">Projects</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class=" btn btn-outline-light" href="#about" title='About me'><i class="fa-solid fa-id-card"></i><span id="span-nav">About me</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class=" btn btn-outline-light" href="#contact" title='Contacts'><i class="fa-solid fa-address-book"></i><span id="span-nav">Contacts</span></a>
+                </li>
+            </ul>
         </nav>
-
-
     </header>
 
-
-    <div class="container-md" id="video-box">
-        <div class="text-white text-center mt-5 mb-5 pt-5 align-self-auto">
-            <h1>Hello world!</h1>
-            <p>My name is Denize and this is my portifolio, I hope you find something interesting!</p>
+    <section id="home">
+        </br>
+        </br>
+        </br>
+        </br>
+        <div id="title-style">
+            <h1>$ echo "Hello world!"</h1>
         </div>
-        <video class="align-self-end justify-content-end  mb-5 " autoplay muted id="video-intro">
+        <div class="container">
+            <p>My name is Denize and this is my portifolio, I hope you find something interesting!</p>
+            <video autoplay muted loop id="video-intro">
                 <source src="assets/video/intro.mp4" type="video/mp4">
         </video>
-
-    </div>
-
-    <footer class="mastfoot fixed-bottom">
-        <div class="inner text-white text-center">
-            <p>by Denize 2022</p>
         </div>
-    </footer>
+    </section>
+    <section id="knowhow">
+        <div id="title-style">
+            <h1>$ cat know-how.txt</h1>
+        </div>
+        <div class="container row border-light border-right">
+            <ul class="nav flex-column nav-pills col-4 " id="myTab" role="tablist">
+                <li class="nav-item " role="presentation">
+                    <button class="btn btn-outline-light btn-lg text-lg-end w-100" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="true">
+                        Education</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="btn btn-outline-light btn-lg text-lg-end w-100" id="jobs-tab" data-bs-toggle="tab" data-bs-target="#jobs" type="button" role="tab" aria-controls="jobs" aria-selected="false">
+                        Jobs</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="btn btn-outline-light btn-lg text-lg-end w-100" id="courses-tab" data-bs-toggle="tab" data-bs-target="#courses" type="button" role="tab" aria-controls="courses" aria-selected="false">
+                        Courses</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="btn btn-outline-light btn-lg text-lg-end w-100" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab" aria-controls="skills" aria-selected="false">
+                        Soft Skills</button>
+                </li>
+            </ul>
+            <div class="tab-content col-8 text-lg-start">
+                <div class="tab-pane active" id="education" role="tabpanel" aria-labelledby="education-tab">Conteúdo do início</div>
+                <div class="tab-pane" id="jobs" role="tabpanel" aria-labelledby="jobs-tab">Conteúdo do perfil</div>
+                <div class="tab-pane" id="courses" role="tabpanel" aria-labelledby="courses-tab">Conteúdo das mensagens</div>
+                <div class="tab-pane" id="skills" role="tabpanel" aria-labelledby="skills-tab">111Conteúdo das mensagens</div>
+            </div>
+
+        </div>
+    </section>
+    <section id="projects">
+        <div id="title-style">
+            <h1>$ 123 projects!</h1>
+        </div>
+        <div class="container">
+            <p>project</p>
+        </div>
+
+    </section>
+    <section id="about">
+        <div id="title-style">
+            <h1>$ cd /home/denize</h1>
+        </div>
+        <div class="container ">
+            <div>
+                <img class="figure-img img-fluid rounded" src="assets/img/me.jpg" alt="" srcset="">
+            </div>
+            <div>
+                <p>I'm 31, the mom of an adorable boy and a baby. I'm living in the countryside of Brazil, in Santa Catarina, Joinville. I've always attracted by technologies, but only in 2019 did I save enough money to study computer programming at Seneca
+                    in Canada, however, when Covid-19 came my plans had to change, I've already done 2 of 4 semesters (online), after those, I got pregnant and decided to stay close of the family in Brazil to raise my kids.</p>
+                <p>As a professional, I've always put effort to do my best no matter how small the task may be. I love learning new things and sharing with my family and colleagues, I firmly believe that knowledge is what made homo sapiens different from
+                    other animals, we share and learn pieces of stuff without the need to recreate the wheel every time.</p>
+                <p>I've worked for a multinational corporation as an audio and video technician at TV Globo in Rio de Janeiro - Brazil, where I've learned a lot of telecommunications technologies and helped the team during amazing events such as the FIFA
+                    World Cup 2014(Brazil) and 2018(Russia), Olympics 2016 (Brazil). Now I'm looking for a different challenge I decide to be a developer, not only because I decided not to believe that there is no place for me in STEM jobs because I'm
+                    31, a woman, and a mom of 2, but also because I've always loved learning new things every day, and for me is inspiring the way the tech community have to develop an engine to keep learn even with the fastest changes that we ever saw.</p>
+                <p>I'm not currently working in any company, I've been working on my projects, family, doing boot camps and courses to learn more about the front-end, so if you are interested in contacting me with a project you can take a look in my
+                    <a href="assets/doc/CV Denize Bassi Figueiredo.pdf" target="_blank" class="link-warning">resume</a> or
+                    <a href="contact.html" target="_self" class="link-warning">contact me</a>!</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div id="title-style">
+            <h1>$ find . -name denize</h1>
+        </div>
+        <div class="container mb-5">
+            <p><i class="fa-solid fa-terminal"></i> $ mail -s $SUBJECT denize.f.bassi@gmail.com &#60; $MESSAGE </p>
+            <form class="mx-auto" action="https://formspree.io/f/mwkynyak" method="POST">
+                <div class="form-group ">
+                    <label for="recipient-name" class="col-form-label">SUBJECT=</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="--help" required>
+                </div>
+                <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">MAIL=</label>
+                    <input type="mail" class="form-control" id="recipient-name" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message-text" class="col-form-label">MESSAGE=</label>
+                    <textarea class="form-control overflow-auto" rows="5" id="message-text" placeholder="echo 'Type your message here.'" required></textarea>
+                </div>
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                <button type="submit" class="btn btn-outline-light btn-lg mt-4 w-100">Submit</button>
+            </form>
+        </div>
+    </section>
+    <div class=" bg-black">
+        <footer class="footer ">
+            <p>©2022 Proudly created by Denize</p>
+            <div id="icons-footer">
+                <a type="button" class="btn btn-outline-light" href="https://www.linkedin.com/in/dbfigueiredo/" title='LinkedIn' target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a type="button" class="btn btn-outline-light" href="https://github.com/DeBaFig" title='GitHub' target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a type="button" class="btn btn-outline-light" href="https://about.me/denizefigueiredo" title='About.me' target="_blank"><i class="fa-solid fa-qrcode"></i></a>
+                <span id="span-footer">
+                <a type="button" class="btn btn-outline-light" href="https://codepen.io/debafig" title='CodePen' target="_blank"><i class="fa-brands fa-codepen"></i></a>
+                <a type="button" class="btn btn-outline-light" href="https://pt.stackoverflow.com/users/276536/debafig" title='Stack Overflow' target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
+                <a type="button" class="btn btn-outline-light" href="https://twitter.com/Dbassi91" title='Twitter' target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a type="button" class="btn btn-outline-light" href="https://www.facebook.com/d.bassi91/" title='Facebook' target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a type="button" class="btn btn-outline-light" href="https://www.instagram.com/bassidenize/" title='Instagram' target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a type="button" class="btn btn-outline-light" href="https://wa.me/qr/VMVHOV7CIFHYP1" title='Whatsapp' target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </span>
+            </div>
+        </footer>
+    </div>
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

@@ -1,20 +1,26 @@
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    overflow: hidden;
+    background-color: rgb(0, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header i,
+footer i {
+    font-size: xx-large;
+    margin: 2px;
 }
 
 
-/* Navbar and btn style */
+/* Navbar and btn style bootstrap remove*/
 
-.btn i {
-    font-size: 2em;
+.btn,
+nav {
+    border: none;
 }
 
 .btn-check:focus+.btn,
@@ -22,64 +28,47 @@ body {
     box-shadow: none;
 }
 
-.offcanvas-start {
-    width: 250px;
+.navbar-dark .navbar-toggler {
+    border: none;
 }
 
-#navbar-links i {
-    margin-right: 10%;
-}
-
-#navbar-links li .btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-color: transparent;
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 
-/* Index page - video background */
+/* navbar margin */
 
-#video-box {
-    display: flex;
-    flex-direction: column;
-    padding-right: 5%;
-    padding-left: 5%;
+#nav-box ul {
+    margin: auto 5% auto 5%;
 }
+
+
+/* home style*/
 
 #video-intro {
-    max-width: 600px;
-    display: block;
-    right: 0;
-    bottom: 0;
+    max-width: 40%;
 }
 
 
-/* About me page */
+/* contact */
 
-#my-picture {
-    max-width: 400px;
-    flex-shrink: 3;
-    padding: 5%;
-    margin-right: 2%;
+form {
+    max-width: 60%;
 }
 
 
-/* contact page */
+/* about */
 
-#icon-find a {
-    border-color: transparent;
-}
-
-#icon-find form {
+#about img {
+    float: left;
+    padding: 2%;
     max-width: 300px;
-    margin: 0 auto;
+}
+
+#about .container {
+    text-align: justify;
 }
 
 
-/* skill page */
-
-#skill-btn {
-    max-width: 500px;
-    margin: 0 auto;
-}
+/* footer */

@@ -2,4 +2,19 @@
         #video-intro {
             visibility: hidden;
         }
+        #span-nav {
+            display: none;
+        }
+        #about img {
+            min-width: 150px;
+        }
+        body {
+            max-width: 90%;
+        }
+        #span-footer {
+            display: none;
+        }
+        form {
+            max-width: 100%;
+        }
     }
