@@ -15,6 +15,19 @@ footer i {
     margin: 2px;
 }
 
+#space-div {
+    margin-top: 50px;
+    padding-top: 5%;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
 
 /* Navbar and btn style bootstrap remove*/
 
@@ -36,18 +49,31 @@ nav {
     box-shadow: none;
 }
 
-
-/* navbar margin */
-
-#nav-box ul {
-    margin: auto 5% auto 5%;
+.nav-link:focus,
+.nav-link:hover {
+    color: #000000;
 }
 
 
 /* home style*/
 
 #video-intro {
-    max-width: 40%;
+    max-width: 50%;
+}
+
+#title-style {
+    margin: 15px;
+}
+
+
+/* skills */
+
+#myTab {
+    text-align: right;
+}
+
+#tab-box {
+    text-align: left;
 }
 
 
@@ -69,6 +95,3 @@ form {
 #about .container {
     text-align: justify;
 }
-
-
-/* footer */

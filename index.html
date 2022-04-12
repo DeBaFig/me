@@ -20,139 +20,186 @@
     <title>Denize's Portifolio</title>
 </head>
 
-<body class="mx-auto">
+<body data-bs-spy="scroll" data-bs-target="#nav-box" data-bs-offset="50" class="mx-auto">
+
     <header>
         <nav id="nav-box" class="navbar bg-black justify-content-center fixed-top">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class=" btn btn-outline-light" href="#home" title='Home'><i class="fa-solid fa-house-laptop"></i><span id="span-nav">Home</span></a>
+                    <a class=" btn nav-link btn-outline-light" href="#home" title='Home'><i class="fa-solid fa-house-laptop"></i><span id="span-nav">Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class=" btn btn-outline-light" href="#knowhow" title='Know-How'><i class="fa-solid fa-book-open-reader"></i><span id="span-nav">Know-How</span></a>
+                    <a class=" btn nav-link btn-outline-light" href="#skills" title='Skills'><i class="fa-solid fa-book-open-reader"></i><span id="span-nav">Skills</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-light" href="#projects" title='Projects'><i class="fa-solid fa-list-check"></i><span id="span-nav">Projects</span></a>
+                    <a class="btn nav-link btn-outline-light" href="#projects" title='Projects'><i class="fa-solid fa-list-check"></i><span id="span-nav">Projects</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class=" btn btn-outline-light" href="#about" title='About me'><i class="fa-solid fa-id-card"></i><span id="span-nav">About me</span></a>
+                    <a class=" btn nav-link btn-outline-light" href="#about" title='About me'><i class="fa-solid fa-id-card"></i><span id="span-nav">About me</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class=" btn btn-outline-light" href="#contact" title='Contacts'><i class="fa-solid fa-address-book"></i><span id="span-nav">Contacts</span></a>
+                    <a class=" btn nav-link btn-outline-light" href="#contact" title='Contacts'><i class="fa-solid fa-address-book"></i><span id="span-nav">Contacts</span></a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <section id="home">
-        </br>
-        </br>
-        </br>
-        </br>
-        <div id="title-style">
-            <h1>$ echo "Hello world!"</h1>
-        </div>
-        <div class="container">
-            <p>My name is Denize and this is my portifolio, I hope you find something interesting!</p>
-            <video autoplay muted loop id="video-intro">
+        <div id="space-div">
+            <div id="title-style">
+                <h1>$ echo "Hello world!"</h1>
+            </div>
+            <div class="container">
+                <p>My name is Denize and this is my portifolio!</p>
+                <video autoplay muted loop id="video-intro">
                 <source src="assets/video/intro.mp4" type="video/mp4">
-        </video>
+                </video>
+
+            </div>
+            <blockquote class="blockquote text-center m-2">
+                <p>“Luck is what happens when preparation meets opportunity.”</p>
+                <footer class="blockquote-footer">Roman Stoic philosopher, <cite><a target="_blank" href="https://www.goodreads.com/author/quotes/4918776.Seneca">Lucius Annaeus Seneca</a></cite></footer>
+            </blockquote>
         </div>
     </section>
 
-    <section id="knowhow">
-        <div id="title-style">
-            <h1>$ cat know-how.txt</h1>
-        </div>
-        <div class="container row border-light border-right">
-            <ul class="nav flex-column nav-pills col-4 " id="myTab" role="tablist">
-                <li class="nav-item " role="presentation">
-                    <button class="btn btn-outline-light btn-lg text-lg-end w-100" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="true">
-                        Education</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="btn btn-outline-light btn-lg text-lg-end w-100" id="jobs-tab" data-bs-toggle="tab" data-bs-target="#jobs" type="button" role="tab" aria-controls="jobs" aria-selected="false">
-                        Jobs</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="btn btn-outline-light btn-lg text-lg-end w-100" id="courses-tab" data-bs-toggle="tab" data-bs-target="#courses" type="button" role="tab" aria-controls="courses" aria-selected="false">
-                        Courses</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="btn btn-outline-light btn-lg text-lg-end w-100" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab" aria-controls="skills" aria-selected="false">
-                        Soft Skills</button>
-                </li>
-            </ul>
-            <div class="tab-content col-8 text-lg-start">
-                <div class="tab-pane active" id="education" role="tabpanel" aria-labelledby="education-tab">Conteúdo do início</div>
-                <div class="tab-pane" id="jobs" role="tabpanel" aria-labelledby="jobs-tab">Conteúdo do perfil</div>
-                <div class="tab-pane" id="courses" role="tabpanel" aria-labelledby="courses-tab">Conteúdo das mensagens</div>
-                <div class="tab-pane" id="skills" role="tabpanel" aria-labelledby="skills-tab">111Conteúdo das mensagens</div>
+    <section id="skills">
+        <div id="space-div">
+            <div id="title-style">
+                <h1>$ cat skills.txt</h1>
             </div>
+            <div class="container row border-light border-right">
+                <ul class="nav flex-column nav-pills col-4 " id="myTab" role="tablist">
+                    <li class="nav-item " role="presentation">
+                        <button class="btn btn-outline-light align-content-end" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="true">
+                        Education</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn-outline-light btn-lg text-lg-end " id="jobs-tab" data-bs-toggle="tab" data-bs-target="#jobs" type="button" role="tab" aria-controls="jobs" aria-selected="false">
+                        Jobs</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn-outline-light btn-lg text-lg-end " id="courses-tab" data-bs-toggle="tab" data-bs-target="#courses" type="button" role="tab" aria-controls="courses" aria-selected="false">
+                        Courses</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn-outline-light btn-lg text-lg-end " id="techs-tab" data-bs-toggle="tab" data-bs-target="#techs" type="button" role="tab" aria-controls="skills" aria-selected="false">
+                            Technologies</button>
+                    </li>
+                </ul>
+                <div class="tab-content col-8" id="tab-box">
+                    <div class="tab-pane active" id="education" role="tabpanel" aria-labelledby="education-tab">
+                        <p><strong><a target="_blank" href="https://www.senecacollege.ca/home.html">Seneca College</a></strong> - two-year diploma in Computer Programming</p>
+                        <p>September-2020 - in progress... </p>
+                        <p>The full-time program that encourages finding the solution by ourselves, great professors, and great code challenges, I've been learning logic with C and Object-Oriented Programming with C++.</p>
+                        <p><strong><a target="_blank" href="https://portal.colegiolemosdecastro.com.br/">Lemos de Castro</a></strong> - Technical degree in Electronic</p>
+                        <p>March-2012 - December-2012 </p>
+                        <p>Post-secondary I could develop practical skills in basic electricity and electronics, by the end of that year, I was able to create a circuit that could turn the lights on with a clap sound.</p>
+                        <p><strong><a target="_blank" href="https://www.paralelo.g12.br/">Instituto Paralelo</a></strong> - Technical degree in Business Administration </p>
+                        <p>February-2005 - December-2008 </p>
+                        <p>During the course, I've learned Finance Math, statistics, accounting, and other management skills.</p>
+                    </div>
+                    <div class="tab-pane" id="jobs" role="tabpanel" aria-labelledby="jobs-tab">
+                        <p><strong><a target="_blank" href="https://grupoglobo.globo.com/">TV Globo</a></strong></p>
+                        <p>January - 2014 - October - 2019</p>
+                        <p>My journey started as an outsourcer at TV GLobo, however in 2014 I was hired as an employee in the exhibition department, where I was able to grow as a technician and exchange knowledge with great professionals. I also participate
+                            in an intern prized project, a new way of intern delivering advertising.</p>
+                        <p>After an intern recruitment process, I went to the Broadcast management department, where my responsibilities include not only, delivering digital and streamed signals to journalism use, booking satellites, and technical support
+                            tier 2.</p>
+                    </div>
+                    <div class="tab-pane" id="courses" role="tabpanel" aria-labelledby="courses-tab">
+                        <p>One of my hobbies besides romance novel books is learning new things, so I've made a lot of courses most soft skills, cooking, crotchet, handmade crafting, or knitting, but sometimes I find coding courses or code learning platforms,
+                            such as <a href="https://cursos.alura.com.br/user/DeBaFig/fullCertificate/6e8dbe2108b233b75ad62a1b80bc3886" target="_blank">Programming Logic with games</a> at <a href="https://www.alura.com.br/" target="_blank">Alura</a> or
+                            a
+                            <a href="https://www.dio.me/certificate/AC4CEE72/share" target="_black">Boot Camp Localiza</a> at
+                            <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a>, I bought more courses than I can watch, I can't help myself, I see an interesting theme I want to learn about.</p>
+                        <p> I've also already got LinkedIn learning to research a few topics for some assignments at college as <a href="https://www.linkedin.com/learning/comptia-a-plus-220-1001-cert-prep-8-internet-and-the-cloud/understanding-virtualization?autoplay=true&resume=false"
+                                target="_blank">Virtualization</a> and
+                            <a href="https://www.linkedin.com/learning/introduction-to-web-apis" target="_blank">API's</a>.
+                        </p>
+                    </div>
+                    <div class="tab-pane" id="techs" role="tabpanel" aria-labelledby="techs-tab">
+                        <div class="row">
+                            <div class="col" id="techs-col1">
+                            </div>
+                            <div class="col" id="techs-col2">
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="projects">
-        <div id="title-style">
-            <h1>$ 123 projects!</h1>
-        </div>
-        <div class="container">
-            <p>project</p>
+        <div id="space-div">
+            <div id="title-style">
+                <h1>$ 123 projects!</h1>
+            </div>
+            <div class="container">
+                <p>project</p>
+            </div>
         </div>
 
     </section>
 
     <section id="about">
-        <div id="title-style">
-            <h1>$ cd /home/denize</h1>
-        </div>
-        <div class="container ">
-            <div>
-                <img class="figure-img img-fluid rounded" src="assets/img/me.jpg" alt="" srcset="">
+        <div id="space-div">
+            <div id="title-style">
+                <h1>$ cd /home/denize</h1>
             </div>
-            <div>
-                <p>I'm 31, the mom of an adorable boy and a baby. I'm living in the countryside of Brazil, in Santa Catarina, Joinville. I've always attracted by technologies, but only in 2019 did I save enough money to study computer programming at Seneca
-                    in Canada, however, when Covid-19 came my plans had to change, I've already done 2 of 4 semesters (online), after those, I got pregnant and decided to stay close of the family in Brazil to raise my kids.</p>
-                <p>As a professional, I've always put effort to do my best no matter how small the task may be. I love learning new things and sharing with my family and colleagues, I firmly believe that knowledge is what made homo sapiens different from
-                    other animals, we share and learn pieces of stuff without the need to recreate the wheel every time.</p>
-                <p>I've worked for a multinational corporation as an audio and video technician at TV Globo in Rio de Janeiro - Brazil, where I've learned a lot of telecommunications technologies and helped the team during amazing events such as the FIFA
-                    World Cup 2014(Brazil) and 2018(Russia), Olympics 2016 (Brazil). Now I'm looking for a different challenge I decide to be a developer, not only because I decided not to believe that there is no place for me in STEM jobs because I'm
-                    31, a woman, and a mom of 2, but also because I've always loved learning new things every day, and for me is inspiring the way the tech community have to develop an engine to keep learn even with the fastest changes that we ever saw.</p>
-                <p>I'm not currently working in any company, I've been working on my projects, family, doing boot camps and courses to learn more about the front-end, so if you are interested in contacting me with a project you can take a look in my
-                    <a href="assets/doc/CV Denize Bassi Figueiredo.pdf" target="_blank" class="link-warning">resume</a> or
-                    <a href="contact.html" target="_self" class="link-warning">contact me</a>!</p>
+            <div class="container ">
+                <div>
+                    <img class="figure-img img-fluid rounded" src="assets/img/me.jpg" alt="" srcset="">
+                </div>
+                <div>
+                    <p>I'm 31, the mom of an adorable boy and a baby. I'm living in the countryside of Brazil, in Santa Catarina, Joinville. I've always attracted by technologies, but only in 2019 did I save enough money to study computer programming at
+                        Seneca in Canada, however, when Covid-19 came my plans had to change, I've already done 2 of 4 semesters (online), after those, I got pregnant and decided to stay close of the family in Brazil to raise my kids.</p>
+                    <p>As a professional, I've always put effort to do my best no matter how small the task may be. I love learning new things and sharing with my family and colleagues, I firmly believe that knowledge is what made homo sapiens different
+                        from other animals, we share and learn pieces of stuff without the need to recreate the wheel every time.</p>
+                    <p>I've worked for a multinational corporation as an audio and video technician at TV Globo in Rio de Janeiro - Brazil, where I've learned a lot of telecommunications technologies and helped the team during amazing events such as the
+                        FIFA World Cup 2014(Brazil) and 2018(Russia), Olympics 2016 (Brazil). Now I'm looking for a different challenge I decide to be a developer, not only because I decided not to believe that there is no place for me in STEM jobs because
+                        I'm 31, a woman, and a mom of 2, but also because I've always loved learning new things every day, and for me is inspiring the way the tech community have to develop an engine to keep learn even with the fastest changes that we
+                        ever saw.</p>
+                    <p>I'm not currently working in any company, I've been working on my projects, family, doing boot camps and courses to learn more about the front-end, so if you are interested in contacting me with a project you can take a look in my
+                        <a href="assets/doc/CV Denize Bassi Figueiredo.pdf" target="_blank" class="link-warning">resume</a> or
+                        <a href="contact.html" target="_self" class="link-warning">contact me</a>!</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact">
-        <div id="title-style">
-            <h1>$ find . -name denize</h1>
-        </div>
-        <div class="container mb-5">
-            <p><i class="fa-solid fa-terminal"></i> $ mail -s $SUBJECT denize.f.bassi@gmail.com &#60; $MESSAGE </p>
-            <form class="mx-auto" action="https://formspree.io/f/mwkynyak" method="POST">
-                <div class="form-group ">
-                    <label for="recipient-name" class="col-form-label">SUBJECT=</label>
-                    <input type="text" class="form-control" id="recipient-name" placeholder="--help" required>
-                </div>
-                <div class="form-group">
-                    <label for="recipient-name" class="col-form-label">MAIL=</label>
-                    <input type="mail" class="form-control" id="recipient-name" placeholder="name@example.com" required>
-                </div>
-                <div class="form-group">
-                    <label for="message-text" class="col-form-label">MESSAGE=</label>
-                    <textarea class="form-control overflow-auto" rows="5" id="message-text" placeholder="echo 'Type your message here.'" required></textarea>
-                </div>
-                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-                <button type="submit" class="btn btn-outline-light btn-lg mt-4 w-100">Submit</button>
-            </form>
+        <div id="space-div">
+            <div id="title-style">
+                <h1>$ find . -name denize</h1>
+            </div>
+            <div class="container ">
+                <p><i class="fa-solid fa-terminal"></i> $ mail -s $SUBJECT denize.f.bassi@gmail.com &#60; $MESSAGE </p>
+                <form class="mx-auto" action="https://formspree.io/f/mwkynyak" method="POST">
+                    <div class="form-group ">
+                        <label for="recipient-name" class="col-form-label">SUBJECT=</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="--help" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">MAIL=</label>
+                        <input type="mail" class="form-control" id="recipient-name" placeholder="name@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">MESSAGE=</label>
+                        <textarea class="form-control overflow-auto" rows="5" id="message-text" placeholder="echo 'Type your message here.'" required></textarea>
+                    </div>
+                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                    <button type="submit" class="btn btn-outline-light btn-lg mt-4 w-100">Submit</button>
+                </form>
+            </div>
         </div>
     </section>
 
-    <footer class="footer ">
-        <p>©2022 Proudly created by Denize</p>
-        <div id="icons-footer">
+    <footer class="footer">
+        <p class="pt-2">©2022 Proudly created by Denize</p>
+        <div class="pt-2" id="icons-footer">
             <a type="button" class="btn btn-outline-light" href="https://www.linkedin.com/in/dbfigueiredo/" title='LinkedIn' target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a type="button" class="btn btn-outline-light" href="https://github.com/DeBaFig" title='GitHub' target="_blank"><i class="fa-brands fa-github"></i></a>
             <a type="button" class="btn btn-outline-light" href="https://about.me/denizefigueiredo" title='About.me' target="_blank"><i class="fa-solid fa-qrcode"></i></a>

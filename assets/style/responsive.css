@@ -9,12 +9,15 @@
             min-width: 150px;
         }
         body {
-            max-width: 90%;
+            max-width: 85%;
         }
         #span-footer {
             display: none;
         }
         form {
             max-width: 100%;
+        }
+        #space-div {
+            padding-top: 18%;
         }
     }
