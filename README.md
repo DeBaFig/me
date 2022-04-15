@@ -10,6 +10,7 @@ A portfolio website and also have a little about me. I'm a student but I'm havin
 
 <!--ts-->
    * [About](#about)
+   * [To-do-list](#to-do-list)
    * [Final Considerations](#final-considerations)
    * [Author](#author)
       
@@ -21,7 +22,18 @@ A portfolio website and also have a little about me. I'm a student but I'm havin
 <img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/46844031/163629716-22afe289-eb02-4014-b212-1679de5cc4c6.jpg" width="600px;" alt=""/>
 </p>
 
-My personal site all about my projects, education, skills and anything I want. I haven't yet deployed. I've being using a lot of Bootstrap 5, however I'll improve with many features ASAP.
+My site is all about my projects, education, skills, and anything I want. I haven't yet deployed. I've been using a lot of Bootstrap 5, however, I'll improve with JavaScript features using canvas (creative coding) ASAP.
+
+:construction: I'm coding the last part before deployment, about my projects, I'm just organizing my GitHub and writing my READMEs.
+
+## To-do-list
+
+- [ ] Home with JS (typing efect instead of video)
+- [ ] Skills in technologies tab appearence of linux shell download
+- [ ] Projects section
+- [ ] Finalized the logic to recive contacts
+- [ ] Chat bot integrated
+- [ ] Creative mouse cursor
 
 ## Final Considerations
 
