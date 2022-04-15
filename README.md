@@ -2,7 +2,7 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)  ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)   ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Java Script badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
 
-[![GitHub issues](https://img.shields.io/github/issues/DeBaFig/me)](https://github.com/DeBaFig/me/issues) [![GitHub forks](https://img.shields.io/github/forks/DeBaFig/me)](https://github.com/DeBaFig/me/network) [![GitHub stars](https://img.shields.io/github/stars/DeBaFig/me)](https://github.com/DeBaFig/me/stargazers) [![GitHub license](https://img.shields.io/github/license/DeBaFig/me)](https://github.com/DeBaFig/me/blob/main/LICENSE) 
+![GitHub last commit](https://img.shields.io/github/last-commit/DeBaFig/me)  [![GitHub issues](https://img.shields.io/github/issues/DeBaFig/me)](https://github.com/DeBaFig/me/issues) [![GitHub forks](https://img.shields.io/github/forks/DeBaFig/me)](https://github.com/DeBaFig/me/network) [![GitHub stars](https://img.shields.io/github/stars/DeBaFig/me)](https://github.com/DeBaFig/me/stargazers) [![GitHub license](https://img.shields.io/github/license/DeBaFig/me)](https://github.com/DeBaFig/me/blob/main/LICENSE) 
 
 <h1 align="center">Personal Website</h1>
 
@@ -11,7 +11,6 @@ A portfolio website and also have a little about me. I'm a student but I'm havin
 <!--ts-->
    * [About](#about)
    * [To-do-list](#to-do-list)
-   * [Final Considerations](#final-considerations)
    * [Author](#author)
       
 <!--te-->
@@ -34,9 +33,6 @@ My site is all about my projects, education, skills, and anything I want. I have
 - [ ] Finalized the logic to recive contacts
 - [ ] Chat bot integrated
 - [ ] Creative mouse cursor
-
-## Final Considerations
-
 
 
 ### Author
