@@ -1,9 +1,12 @@
+![Denize-banner](https://user-images.githubusercontent.com/46844031/163629556-02066e09-7ccd-47d2-869c-1a25dbf16f10.png)
 
-<h1 align="center">My personal Site</h1>
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)  ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)   ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Java Script badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
 
-![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)   ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)   
+[![GitHub issues](https://img.shields.io/github/issues/DeBaFig/me)](https://github.com/DeBaFig/me/issues) [![GitHub forks](https://img.shields.io/github/forks/DeBaFig/me)](https://github.com/DeBaFig/me/network) [![GitHub stars](https://img.shields.io/github/stars/DeBaFig/me)](https://github.com/DeBaFig/me/stargazers) [![GitHub license](https://img.shields.io/github/license/DeBaFig/me)](https://github.com/DeBaFig/me/blob/main/LICENSE) 
 
-<p>Codes of my workshops and the final project.</p>
+<h1 align="center">Personal Website</h1>
+
+A portfolio website and also have a little about me. I'm a student but I'm having fun learning so much stuffs.
 
 <!--ts-->
    * [About](#about)
@@ -14,8 +17,15 @@
 
 
 ## About
+<p align="center">
+<img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/46844031/163629716-22afe289-eb02-4014-b212-1679de5cc4c6.jpg" width="600px;" alt=""/>
+</p>
+
+My personal site all about my projects, education, skills and anything I want. I haven't yet deployed. I've being using a lot of Bootstrap 5, however I'll improve with many features ASAP.
 
 ## Final Considerations
+
+
 
 ### Author
 
