@@ -1,6 +1,7 @@
 
 <h1 align="center">My personal Site</h1>
 
+![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) ![GitHub](https://img.shields.io/github/license/DeBaFig/me)
 
 <p>Codes of my workshops and the final project.</p>
 
