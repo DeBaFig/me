@@ -25,11 +25,11 @@ var myTechs = [{
     "name": "JSON",
     "progress": 40
 }, {
-    "name": "API",
+    "name": "API/REST",
     "progress": 40
 }, {
     "name": "PHP",
-    "progress": 20
+    "progress": 40
 }, {
     "name": ".NET",
     "progress": 40
@@ -58,6 +58,21 @@ var myTechs = [{
     "name": "Azure",
     "progress": 40
 }];
+
+var myProjects = [{
+        "imgUrl": "img src='assets/img/carousel/project1term.gif'",
+        "label": "Seneca Final Project 1st Term",
+        "description": "A basic ticketing system, a tracking system for customer-reported problems.",
+        "linkProject": "href='https://github.com/DeBaFig/1st-term'"
+    },
+    {
+        "imgUrl": "img src='assets/img/carousel/projectCatalogo.gif'",
+        "label": "<p lang='pt-br'>Catálogo de Filmes</p>",
+        "description": "Project using C# and .Net in portuguese during a boot camp.",
+        "linkProject": "href='https://github.com/DeBaFig/DIO-Projeto-Catalogo'"
+    },
+
+];
 var techCol1 = document.getElementById("techs-col1");
 var techCol2 = document.getElementById("techs-col2");
 
@@ -70,3 +85,31 @@ function showProgress() {
             techCol2.innerHTML += message;
     }
 }
+
+var btnCarousel = document.getElementById("btn-captions");
+var imgCarousel = document.getElementById("img-carousel");
+
+
+function showCarousel() {
+    for (i = 0; i < myProjects.length; i++) {
+        let btn = "<button type='button' data-bs-target='#carousel-projects' data-bs-slide-to='" + i + (i == 0 ? "' class='active' aria-current='true'" : "' ") + " aria-label='Slide " + (i + 1) + "'></button>"
+        let img = "<div class='carousel-item justify-content-center" +
+            (i == 0 ? " active' " : "' ") +
+            "><div class='row'><div class='col-sm-8'><div class='card'><div class='card-body p-0'><a " +
+            myProjects[i].linkProject +
+            " target='_blank' data-toggle='tooltip' title='Click here to see more about it!'><" +
+            myProjects[i].imgUrl +
+            " class='w-100'></a></div></div></div><div class='col-sm-4'><div class='card'><div class='card-body bg-black'><h5 class='card-title'>" +
+            myProjects[i].label +
+            "</h5><p class='card-text'>" +
+            myProjects[i].description +
+            "</p></div></div></div></div></div>"
+        btnCarousel.innerHTML += btn;
+        imgCarousel.innerHTML += img;
+        console.log(btn);
+        console.log(img);
+    }
+}
+
+showProgress();
+showCarousel();

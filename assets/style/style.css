@@ -95,3 +95,16 @@ form {
 #about .container {
     text-align: justify;
 }
+
+#img-carousel {
+    margin: auto 10% auto 10%;
+}
+
+.card {
+    border: none;
+}
+
+#btn-captions .btn {
+    background-color: red;
+    padding-top: 5%;
+}
