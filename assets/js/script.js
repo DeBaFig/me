@@ -22,20 +22,26 @@ var myTechs = [{
     "name": "Bootstrap",
     "progress": 50
 }, {
-    "name": "JSON",
+    "name": "JQuery",
     "progress": 40
 }, {
     "name": "API/REST",
-    "progress": 40
+    "progress": 30
+}, {
+    "name": "C",
+    "progress": 70
+}, {
+    "name": "C++",
+    "progress": 70
 }, {
     "name": "PHP",
-    "progress": 40
+    "progress": 70
 }, {
     "name": ".NET",
     "progress": 40
 }, {
     "name": "Node.js",
-    "progress": 40
+    "progress": 30
 }, {
     "name": "Python",
     "progress": 40
@@ -57,20 +63,34 @@ var myTechs = [{
 }, {
     "name": "Azure",
     "progress": 40
+}, {
+    "name": "React JS",
+    "progress": 20
+}, {
+    "name": "Git/GitHub",
+    "progress": 50
+}, {
+    "name": "Trello",
+    "progress": 50
 }];
 
 var myProjects = [{
         "imgUrl": "img src='assets/img/carousel/project1term.gif'",
-        "label": "Seneca Final Project 1st Term",
+        "label": "en-US - Seneca Final Project 1st Term",
         "description": "A basic ticketing system, a tracking system for customer-reported problems.",
         "linkProject": "href='https://github.com/DeBaFig/1st-term'"
     },
     {
         "imgUrl": "img src='assets/img/carousel/projectCatalogo.gif'",
-        "label": "<p lang='pt-br'>Catálogo de Filmes</p>",
+        "label": "<p lang='pt-br'>pt-BR - Catálogo de Filmes</p>",
         "description": "Project using C# and .Net in portuguese during a boot camp.",
         "linkProject": "href='https://github.com/DeBaFig/DIO-Projeto-Catalogo'"
-    },
+    }, {
+        "imgUrl": "img src='assets/img/carousel/projectPortfolio.jpeg'",
+        "label": "<p lang='pt-br'>pt-BR - (kind of)Netflix Interface</p>",
+        "description": "Project using HTML and CSS in portuguese during a boot camp.",
+        "linkProject": "href='https://github.com/DeBaFig/DIO-Projeto-Catalogo'"
+    }
 
 ];
 var techCol1 = document.getElementById("techs-col1");
@@ -99,7 +119,7 @@ function showCarousel() {
             myProjects[i].linkProject +
             " target='_blank' data-toggle='tooltip' title='Click here to see more about it!'><" +
             myProjects[i].imgUrl +
-            " class='w-100'></a></div></div></div><div class='col-sm-4'><div class='card'><div class='card-body bg-black'><h5 class='card-title'>" +
+            " class='w-100 limit-height '></a></div></div></div><div class='col-sm-4'><div class='card'><div class='card-body bg-black'><h5 class='card-title'>" +
             myProjects[i].label +
             "</h5><p class='card-text'>" +
             myProjects[i].description +

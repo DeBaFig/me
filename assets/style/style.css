@@ -98,6 +98,7 @@ form {
 
 #img-carousel {
     margin: auto 10% auto 10%;
+    height: 500px;
 }
 
 .card {
@@ -105,6 +106,5 @@ form {
 }
 
 #btn-captions .btn {
-    background-color: red;
     padding-top: 5%;
 }
