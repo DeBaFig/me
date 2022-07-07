@@ -27,10 +27,10 @@ My site is all about my projects, education, skills, and anything I want. I have
 
 ## To-do-list
 
-- [ ] Home with JS (typing efect instead of video)
+- [ ] Home with JS (typing effect instead of video)
 - [ ] Skills in technologies tab appearence of linux shell download
-- [ ] Projects section
-- [ ] Finalized the logic to recive contacts
+- [x] Projects section
+- [X] Finalized the logic to recieve contacts
 - [ ] Chat bot integrated
 - [ ] Creative mouse cursor
 
