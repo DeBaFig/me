@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <!-- Required meta tags -->
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/responsive.css">
 
-    <title>Denize's Portifolio</title>
+    <title>Meu portifólio</title>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#nav-box" data-bs-offset="50" class="mx-auto">
@@ -28,16 +28,16 @@
                     <a class=" btn nav-link btn-outline-light" href="#home" title='Home'><i class="fa-solid fa-house-laptop"></i><span id="span-nav">Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class=" btn nav-link btn-outline-light" href="#skills" title='Skills'><i class="fa-solid fa-book-open-reader"></i><span id="span-nav">Skills</span></a>
+                    <a class=" btn nav-link btn-outline-light" href="#skills" title='Habilidades'><i class="fa-solid fa-book-open-reader"></i><span id="span-nav">Habilidades</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn nav-link btn-outline-light" href="#projects" title='Projects'><i class="fa-solid fa-list-check"></i><span id="span-nav">Projects</span></a>
+                    <a class="btn nav-link btn-outline-light" href="#projects" title='Projetos'><i class="fa-solid fa-list-check"></i><span id="span-nav">Projetos</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class=" btn nav-link btn-outline-light" href="#about" title='About me'><i class="fa-solid fa-id-card"></i><span id="span-nav">About me</span></a>
+                    <a class=" btn nav-link btn-outline-light" href="#about" title='Sobre'><i class="fa-solid fa-id-card"></i><span id="span-nav">Sobre</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class=" btn nav-link btn-outline-light" href="#contact" title='Contacts'><i class="fa-solid fa-address-book"></i><span id="span-nav">Contacts</span></a>
+                    <a class=" btn nav-link btn-outline-light" href="#contact" title='Contatos'><i class="fa-solid fa-address-book"></i><span id="span-nav">Contatos</span></a>
                 </li>
             </ul>
         </nav>
@@ -49,15 +49,15 @@
                 <h1>$ echo "Hello world!"</h1>
             </div>
             <div class="container">
-                <p>My name is Denize and this is my portifolio!</p>
+                <p>Meu nome é Denize e esse é meu portifolio</p>
                 <video autoplay muted loop id="video-intro">
                 <source src="assets/video/intro.mp4" type="video/mp4">
                 </video>
 
             </div>
             <blockquote class="blockquote text-center m-2">
-                <p>“Luck is what happens when preparation meets opportunity.”</p>
-                <footer class="blockquote-footer">Roman Stoic philosopher, <cite><a target="_blank" href="https://www.goodreads.com/author/quotes/4918776.Seneca">Lucius Annaeus Seneca</a></cite></footer>
+                <p>“Sorte é o que acontece quando preparação encontra oportunidade.”</p>
+                <footer class="blockquote-footer">Filósofo Romano, <cite><a target="_blank" href="https://www.goodreads.com/author/quotes/4918776.Seneca">Lucius Annaeus Seneca</a></cite></footer>
             </blockquote>
         </div>
     </section>
@@ -71,47 +71,41 @@
                 <ul class="nav flex-column nav-pills col-4 " id="myTab" role="tablist">
                     <li class="nav-item " role="presentation">
                         <button class="btn btn-outline-light align-content-end" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="true">
-                        Education</button>
+                        Escolaridade</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn-outline-light btn-lg text-lg-end " id="jobs-tab" data-bs-toggle="tab" data-bs-target="#jobs" type="button" role="tab" aria-controls="jobs" aria-selected="false">
-                        Jobs</button>
+                        Trabalhos</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn-outline-light btn-lg text-lg-end " id="courses-tab" data-bs-toggle="tab" data-bs-target="#courses" type="button" role="tab" aria-controls="courses" aria-selected="false">
-                        Courses</button>
+                        Cursos</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn-outline-light btn-lg text-lg-end " id="techs-tab" data-bs-toggle="tab" data-bs-target="#techs" type="button" role="tab" aria-controls="skills" aria-selected="false">
-                            Technologies</button>
+                        Tecnologias</button>
                     </li>
                 </ul>
                 <div class="tab-content col-8" id="tab-box">
                     <div class="tab-pane active" id="education" role="tabpanel" aria-labelledby="education-tab">
-                        <p><strong><a target="_blank" href="https://www.senecacollege.ca/home.html">Seneca College</a></strong> - two-year diploma in Computer Programming</p>
-                        <p>September-2020 - in progress... </p>
-                        <p>The full-time program that encourages finding the solution by ourselves, great professors, and great code challenges, I've been learning logic with C and Object-Oriented Programming with C++.</p>
-                        <p><strong><a target="_blank" href="https://portal.colegiolemosdecastro.com.br/">Lemos de Castro</a></strong> - Technical degree in Electronic</p>
-                        <p>March-2012 - December-2012 </p>
-                        <p>Post-secondary I could develop practical skills in basic electricity and electronics, by the end of that year, I was able to create a circuit that could turn the lights on with a clap sound.</p>
-                        <p><strong><a target="_blank" href="https://www.paralelo.g12.br/">Instituto Paralelo</a></strong> - Technical degree in Business Administration </p>
-                        <p>February-2005 - December-2008 </p>
-                        <p>During the course, I've learned Finance Math, statistics, accounting, and other management skills.</p>
+                        <p><strong><a target="_blank" href="https://www.senecacollege.ca/home.html">Seneca College</a></strong> - diploma em Computer Programming</p>
+                        <p>Setembro-2020 - cursando... </p>
+                        <p>Esse programa encoraja encontrar soluções por nós mesmos, incriveis professores, e incriveis desafios de código, eu aprendi no lógica em C e Programação orientada a objetos com C++.</p>
+                        <p><strong><a target="_blank" href="https://portal.colegiolemosdecastro.com.br/">Lemos de Castro</a></strong> - Técnico em Eletrônica</p>
+                        <p>Março-2012 - Dezembro-2012 </p>
+                        <p>Nesse curso pós-médio eu pude desenvolver habilidades práticas em eletrica e eletrônica basica, e ao final do curso eu fui capaz de criar um circuito que com o som de uma palma apagava e acendia as luzes.</p>
+                        <p><strong><a target="_blank" href="https://www.paralelo.g12.br/">Instituto Paralelo</a></strong> - Técnico em Administração de empresas</p>
+                        <p>Fevereiro-2005 - Dezembro-2008 </p>
+                        <p>Durante o curso, eu aprendi Matemática financeira, estátistica, contabilidade e outras habilidades de gerenciamento.</p>
                     </div>
                     <div class="tab-pane" id="jobs" role="tabpanel" aria-labelledby="jobs-tab">
                         <p><strong><a target="_blank" href="https://grupoglobo.globo.com/">TV Globo</a></strong></p>
-                        <p>January - 2014 - October - 2019</p>
-                        <p>My journey started as an outsourcer at TV GLobo, however in 2014 I was hired as an employee in the exhibition department, where I was able to grow as a technician and exchange knowledge with great professionals. I also participate
-                            in an intern prized project, a new way of intern delivering advertising.</p>
-                        <p>After an intern recruitment process, I went to the Broadcast management department, where my responsibilities include not only, delivering digital and streamed signals to journalism use, booking satellites, and technical support
-                            tier 2.</p>
+                        <p>Janeiro - 2014 - Outubro - 2019</p>
+                        <p>Minha jornada começou como uma terceirizada na TV Globo, porém em 2014 fui contratada como efetiva pelo setor da exibição, lá eu tive a oportunidade de crescer como técnico em Sistemas e troquei conhecimento com grandes profissionais. Eu também participei de um projeto inteiro que foi premiado, uma maneira de entregar os comerciais.</p>
+                        <p>Após um recrutamento interno, eu mudei para o setor que faz o tráfego de sinais, minhas principais responsabiliadas incluiam entre outros, a entrega dos sinais tanto digitais quanto em stream para o jornalismo, reservar sateletes, suporte técnico nível 2.</p>
                     </div>
                     <div class="tab-pane" id="courses" role="tabpanel" aria-labelledby="courses-tab">
-                        <p>One of my hobbies besides romance novel books is learning new things, so I've made a lot of courses most soft skills, cooking, crotchet, handmade crafting, or knitting, but sometimes I find coding courses or code learning platforms,
-                            such as <a href="https://cursos.alura.com.br/user/DeBaFig/fullCertificate/6e8dbe2108b233b75ad62a1b80bc3886" target="_blank">Programming Logic with games</a> at <a href="https://www.alura.com.br/" target="_blank">Alura</a> or
-                            a
-                            <a href="https://www.dio.me/certificate/AC4CEE72/share" target="_black">Boot Camp Localiza</a> at
-                            <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a>, I bought more courses than I can watch, I can't help myself, I see an interesting theme I want to learn about.</p>
+                        <p>Um nos meu hobbies além de ler livros de romance, é aprender novas coisas, então eu tenho feito diversos cursos, a maioria de soft skills como, cozinhar, crochê, DIY variados, tricô, e também as vezes eu encontro um curso de alguma linguagem ou alguma plataforma gratuita ou paga para aprender variedade de linguagens, como a <a href="https://cursos.alura.com.br/user/DeBaFig/fullCertificate/6e8dbe2108b233b75ad62a1b80bc3886" target="_blank">Lógica de programação com jogos</a> na <a href="https://www.alura.com.br/" target="_blank">Alura</a> ou <a href="https://www.dio.me/certificate/AC4CEE72/share" target="_black">Boot Camp Localiza</a> na <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a>, eu compro mais curso do que consigo assistir, não consigo resistir, eu vejo um tema interessante eu quero aprender sobre.</p>
                         <p> I've also already got LinkedIn learning to research a few topics for some assignments at college as <a href="https://www.linkedin.com/learning/comptia-a-plus-220-1001-cert-prep-8-internet-and-the-cloud/understanding-virtualization?autoplay=true&resume=false"
                                 target="_blank">Virtualization</a> and
                             <a href="https://www.linkedin.com/learning/introduction-to-web-apis" target="_blank">API's</a>.
@@ -193,8 +187,10 @@
             <div id="title-style">
                 <h1>$ find . -name denize</h1>
             </div>
+            <p><i class="fa-solid fa-terminal"></i> NOT FOUND </p>
+            <p>This part is under construction....</p>
         </div>
-        <div id="space-div">
+        <!-- <div id="space-div">
             <div id="title-style">
                 <h1>$ find . -name denize</h1>
             </div>
@@ -203,21 +199,21 @@
                 <form class="mx-auto" action="https://formspree.io/f/mwkynyak" method="POST">
                     <div class="form-group ">
                         <label for="recipient-name" class="col-form-label">SUBJECT=</label>
-                        <input type="text" class="form-control" name="personal-site-subject" id="recipient-name" placeholder="--help" required>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="--help" required>
                     </div>
                     <div class="form-group">
                         <label for="recipient-name" class="col-form-label">MAIL=</label>
-                        <input type="mail" class="form-control" name="personal-site-mail" id="recipient-name" placeholder="name@example.com" required>
+                        <input type="mail" class="form-control" id="recipient-name" placeholder="name@example.com" required>
                     </div>
                     <div class="form-group">
                         <label for="message-text" class="col-form-label">MESSAGE=</label>
-                        <textarea class="form-control overflow-auto" name="personal-site-message" rows="5" id="message-text" placeholder="echo 'Type your message here.'" required></textarea>
+                        <textarea class="form-control overflow-auto" rows="5" id="message-text" placeholder="echo 'Type your message here.'" required></textarea>
                     </div>
                     <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                     <button type="submit" class="btn btn-outline-light btn-lg mt-4 w-100">Submit</button>
                 </form>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <footer class="footer">
