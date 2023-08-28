@@ -7,6 +7,12 @@ triggerTabList.forEach(function (triggerEl) {
 		tabTrigger.show();
 	});
 });
+var age = new Date().getFullYear() -  1991;
+
+document.querySelectorAll('#age').forEach(function(ele){
+    ele.innerHTML = age;
+});
+
 
 var myTechs = [
 	{
@@ -142,8 +148,6 @@ function showCarousel() {
 			"</p></div></div></div></div></div>";
 		btnCarousel.innerHTML += btn;
 		imgCarousel.innerHTML += img;
-		console.log(btn);
-		console.log(img);
 	}
 }
 
