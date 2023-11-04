@@ -1,5 +1,3 @@
-//![Denize-banner](https://user-images.githubusercontent.com/46844031/163629556-02066e09-7ccd-47d2-869c-1a25dbf16f10.png)
-
 ![05957c0f-e4d6-40f0-94f8-09a205d0a71c](https://github.com/DeBaFig/me/assets/46844031/26d7749e-17ba-4dd9-9364-61a5ef8f54ec)
 
 
