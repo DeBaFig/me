@@ -14,7 +14,12 @@ var lang_pt = {
     home_about_me : "Sobre Mim ",
     about_h2 : "Meu nome é Denize",
     about_p : "Como desenvolvedora backend C#, tenho vasta experiência com frameworks como .NET e .NET Core, além de um forte domínio de bancos de dados como MySQL e SQL Server. Sou proficiente em ORMs, especialmente o Entity Framework, e utilizo Docker para criar ambientes padronizados, aumentando a eficiência do desenvolvimento. Embora minha especialidade seja C#, também tenho conhecimentos em Python, PHP, C++, C e outras linguagens. Estou expandindo meu conhecimento em tecnologias de nuvem, focando em AWS e GCP, e integro infraestrutura como código com Terraform, além de gerenciar pipelines de CI/CD com GitHub Actions. Minha abordagem inclui padrões de design como MVC, Factory, Builder, Facade e Adapter, e uma sólida compreensão de Domain-Driven Design (DDD). No frontend, trabalho com HTML, CSS, JavaScript Vanilla e Vue.js. Sou proficiente em ferramentas de desenvolvimento como Git/GitHub e SVN, e no gerenciamento de tarefas com Jira. Estou sempre pronta para novos desafios e oportunidades para aplicar minha paixão pelo desenvolvimento de software.",
-    about_info_h4: ("idade: <span>" + idade + "</span>")
+    about_info_h4: ("idade: <span>" + idade + "</span>"),
+    about_info_gender: "Pronomes: <span>Ela/Dela</span>",
+    about_info_language: "Idiomas: <span>Português/Inglês</span>",
+    about_info_work: "Posição Atual: <span>Analista de Suporte de Mídias - ADDigital (TV GLOBO)</span>",
+    about_info_freelance: "Freelance: <span>Disponível</span>",
+    download_cv: "<a href='assets/downloadables/CV-Denize-Português.pdf' download target='_blank' class='btn'>download CV <i class='fas fa-download'></i></a>"
 };
 var lang_en = {
     nav_logo : "denize",
@@ -31,7 +36,12 @@ var lang_en = {
     home_about_me : "About me ",
     about_h2 : "My name is Denize",
     about_p : "As a backend C# developer, I have extensive experience with frameworks like .NET and .NET Core, along with a strong command of databases such as MySQL and SQL Server. I am proficient in ORMs, particularly Entity Framework, and use Docker to create standardized environments, enhancing development efficiency. Although my specialty is C#, I also have knowledge in Python, PHP, C++, C, and other languages. I am continuously expanding my knowledge in cloud technologies, focusing on AWS and GCP, and I integrate infrastructure as code using Terraform, as well as manage CI/CD pipelines with GitHub Actions. My approach includes design patterns like MVC, Factory, Builder, Facade, and Adapter, and a solid understanding of Domain-Driven Design (DDD). On the frontend, I work with HTML, CSS, Vanilla JavaScript, and Vue.js. I am proficient in development tools like Git/GitHub and SVN, and in task management with Jira. I am always ready for new challenges and opportunities to apply my passion for software development.",
-    about_info_h4: ("age: <span>" + idade + "</span>")
+    about_info_h4: ("age: <span>" + idade + "</span>"),
+    about_info_gender: "pronouns: <span>She/her</span>",
+    about_info_language: "language: <span>portuguese/english</span>",
+    about_info_work: "Current Job: <span>Media Support Analyst - ADDigital (TV GLOBO)</span>",
+    about_info_freelance: "Freelance: <span>Available</span>",
+    download_cv: "<a href='assets/downloadables/CV-Denize-English.pdf' download target='_blank' class='btn'>download CV <i class='fas fa-download'></i></a>"
 };
 
 function check_lang(lang){
