@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Title -->
-    <title>Elora | Personal Portfolio</title>
+    <title id="nav_title"></title>
 
     <!-- Font-Awesome CSS -->
     <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css" />
@@ -38,8 +38,8 @@
     <header class="header">
 
         <!-- Logo -->
-        <a class="logo" href="#home">
-            <h2> Elora </h2> 
+        <a  class="logo" href="#home">
+            <h2 id="nav_logo"></h2> 
             <!-- <img src="assets/images/logo.png" alt="logo" /> -->
         </a>
         <!-- Logo End -->
@@ -47,12 +47,12 @@
         <!-- Navbar -->
         <nav class="navbar">
             <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#service">service</a>
-            <a href="#portfolio">portfolio</a>
-            <a href="#testimonial">testimonials</a>
-            <a href="#blog">blogs</a>
-            <a href="#contact">contact</a>
+            <a id="nav_about" href="#about"></a>
+            <a id="nav_service" href="#service"></a>
+            <a id="nav_portfolio" href="#portfolio"></a>
+            <a id="nav_testimonial" href="#testimonial"></a>
+            <a id="nav_blog" href="#blog"></a>
+            <a id="nav_contact" href="#contact"></a>
         </nav>
 
         <!-- Menubar -->
@@ -70,10 +70,10 @@
 
             <div class="content">
                 <div class="text">
-                    <h2>hi there!</h1>
-                    <h1>I Am a <span class="typing-text"></span></h1>
-                    <p>Creative web developer offering 4+ years of experience providing high-impact web solutions for many different organizations.</p>
-                    <a href="#" class="btn">about me <i class="fas fa-user"></i></a>
+                    <h2 id="home_content_h2"></h1>
+                    <h1 id="home_content_h1"><span class='typing-text'></span></h1>
+                    <p id="home_content_p"></p>
+                    <a href="#" class="btn" id="home_about_me"><i class="fas fa-user"></i></a>
                 </div>
             </div>
     
@@ -100,16 +100,13 @@
     
             <div class="content">
 
-                <h2>My name is elora.</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Recusandae aut adipisci necessitatibus veniam, provident 
-                    vero architecto praesentium, non sequi libero corrupti molestias. 
-                    Architecto voluptate eligendi maiores, error magni accusamus officia.</p>
+                <h2 id="about_h2"></h2>
+                <p id="about_p"></p>
    
                 <div class="about-info">
 
                     <div class="info">
-                        <h4>age: <span>23</span></h4>
+                        <h4 id="about_info_h4"></h4>
                         <h4>gender: <span>female</span></h4>
                         <h4>language: <span>urdu, english</span></h4>
                         <h4>work: <span>Front-End developer</span></h4>
@@ -732,6 +729,9 @@
     <!-- JQuery -->
     <script src="assets/vendors/jquery/jquery-3.6.0.js"></script>
 
+    <!-- LANGUAGES JS -->
+    <script src="assets/js/change-lang.js"></script>
+
     <!-- SWIPER JS -->
     <script src="assets/vendors/swiper/swiper.js"></script>
 
@@ -755,7 +755,8 @@
     <script>
         var typed = new Typed('.typing-text', {
 
-            strings: ['Web developer', 'web designer', 'photographer', 'graphic designer'],
+            //strings: ['Web developer', 'web designer', 'photographer', 'graphic designer'],
+            strings: ['Web', 'C#', 'Vue.Js', 'C++', 'Python' ],
             typeSpeed: 120,
             loop: true
         });
