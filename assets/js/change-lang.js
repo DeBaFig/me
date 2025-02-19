@@ -19,8 +19,15 @@ var lang_pt = {
     about_info_language: "Idiomas: <span>Português/Inglês</span>",
     about_info_work: "Posição Atual: <span>Analista de Suporte de Mídias - ADDigital (TV GLOBO)</span>",
     about_info_freelance: "Freelance: <span>Disponível</span>",
-    download_cv: "<a href='assets/downloadables/CV-Denize-Português.pdf' download target='_blank' class='btn'>download CV <i class='fas fa-download'></i></a>"
+    download_cv: "<a href='assets/downloadables/CV-Denize-Português.pdf' download target='_blank' class='btn'>download CV <i class='fas fa-download'></i></a>",
+    counting_exp :"anos de experiência como desenvolvedora",
+    counting_exp_broadcast :"anos de experiência como técnica de sistemas",
+    counting_projects :"projetos",
+    counting_course :"cursos",
+    skill_heading :"Personalidade",
+    skill_progress: "Extrovertido<span> 72% </span>"
 };
+
 var lang_en = {
     nav_logo : "denize",
     nav_title : "Denize | Personal Portfolio",
@@ -41,7 +48,13 @@ var lang_en = {
     about_info_language: "language: <span>portuguese/english</span>",
     about_info_work: "Current Job: <span>Media Support Analyst - ADDigital (TV GLOBO)</span>",
     about_info_freelance: "Freelance: <span>Available</span>",
-    download_cv: "<a href='assets/downloadables/CV-Denize-English.pdf' download target='_blank' class='btn'>download CV <i class='fas fa-download'></i></a>"
+    download_cv: "<a href='assets/downloadables/CV-Denize-English.pdf' download target='_blank' class='btn'>download CV <i class='fas fa-download'></i></a>",
+    counting_exp :"years of experience as developer",
+    counting_exp_broadcast :"years of experience as broadcast technician",
+    counting_projects :"projects",
+    counting_course :"Courses",
+    skill_heading :"personality",
+    skill_progress: "Extraverted<span> 72% </span>"
 };
 
 function check_lang(lang){
@@ -55,4 +68,4 @@ function check_lang(lang){
         document.querySelector(`#${key}`).innerHTML = value + original + adding
     })
 }
-check_lang(lang_pt)
+check_lang(lang_en)
