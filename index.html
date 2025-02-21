@@ -53,6 +53,7 @@
             <a id="nav_testimonial" href="#testimonial"></a>
             <a id="nav_blog" href="#blog"></a>
             <a id="nav_contact" href="#contact"></a>
+            <a id="nav_language"></a>
         </nav>
 
         <!-- Menubar -->
@@ -71,7 +72,7 @@
             <div class="content">
                 <div class="text">
                     <h2 id="home_content_h2"></h1>
-                    <h1 id="home_content_h1"><span class='typing-text'></span></h1>
+                    <h1 id="home_content_h1"></h1>
                     <p id="home_content_p"></p>
                     <a href="#about" class="btn" id="home_about_me"><i class="fas fa-user"></i></a>
                 </div>
@@ -146,13 +147,13 @@
         <div class="skill-container">
 
             <div class="heading">
-                <a href="https://www.16personalities.com/profiles/fa1aba284420a">
+                <a id="skill_href" target="_blank">
                     <h2 id="skill_heading"></h2>
                 </a>
             </div>
     
             <div class="skills">
-                <div class="skill-item item1">
+                <!-- <div class="skill-item item1">
                     <div class="box">
                         <h3 id="skill_progress"></h3>
                         <div class="progress-bar"> <span></span> </div>
@@ -180,7 +181,7 @@
                         <h3>PHP<span> 60% </span> </h3>
                         <div class="progress-bar"> <span></span> </div>
                     </div>
-                </div>
+                </div> -->
     
             </div>
     
@@ -754,13 +755,110 @@
 
     <!-- Typed Script -->
     <script>
-        var typed = new Typed('.typing-text', {
+        var idade = (new Date().getFullYear() - 1991 )
+        var lang_pt = {
+            nav_logo : "denize",
+            nav_title : "Denize | Portfólio Pessoal",
+            nav_about : "sobre",
+            nav_service : "serviço",
+            nav_portfolio : "Portfólio",
+            nav_testimonial : "referência",
+            nav_blog : "blog",
+            nav_contact : "contato",
+            nav_language: "En-US",
+            home_content_h2 : "olá!",
+            home_content_h1 : "Sou desenvolvedora <span class='typing-text'></span>",
+            home_content_p : "Sou desenvolvedora backend C# com experiência em .NET, .NET Core, MySQL e SQL Server. Uso Docker para ambientes padronizados e conheço Python, PHP, C++ e C. Tenho conhecimento em AWS, GCP, Terraform e GitHub Actions. No frontend, trabalhei com HTML, CSS, JavaScript e Vue.js. Sou proficiente em Git/GitHub, SVN e Jira. Estou ansiosa por novos desafios no desenvolvimento de software.",
+            home_about_me : "Sobre Mim ",
+            about_h2 : "Meu nome é Denize",
+            about_p : "Como desenvolvedora backend C#, tenho vasta experiência com frameworks como .NET e .NET Core, além de um forte domínio de bancos de dados como MySQL e SQL Server. Sou proficiente em ORMs, especialmente o Entity Framework, e utilizo Docker para criar ambientes padronizados, aumentando a eficiência do desenvolvimento. Embora minha especialidade seja C#, também tenho conhecimentos em Python, PHP, C++, C e outras linguagens. Estou expandindo meu conhecimento em tecnologias de nuvem, focando em AWS e GCP, e integro infraestrutura como código com Terraform, além de gerenciar pipelines de CI/CD com GitHub Actions. Minha abordagem inclui padrões de design como MVC, Factory, Builder, Facade e Adapter, e uma sólida compreensão de Domain-Driven Design (DDD). No frontend, trabalho com HTML, CSS, JavaScript Vanilla e Vue.js. Sou proficiente em ferramentas de desenvolvimento como Git/GitHub e SVN, e no gerenciamento de tarefas com Jira. Estou sempre pronta para novos desafios e oportunidades para aplicar minha paixão pelo desenvolvimento de software.",
+            about_info_h4: ("idade: <span>" + idade + "</span>"),
+            about_info_gender: "Pronomes: <span>Ela/Dela</span>",
+            about_info_language: "Idiomas: <span>Português/Inglês</span>",
+            about_info_work: "Posição Atual: <span>Analista de Suporte de Mídias - ADDigital (TV GLOBO)</span>",
+            about_info_freelance: "Freelance: <span>Disponível</span>",
+            download_cv: "<a href='assets/downloadables/CV-Denize-Português.pdf' download target='_blank' class='btn'>download CV <i class='fas fa-download'></i></a>",
+            counting_exp :"anos de experiência como desenvolvedora",
+            counting_exp_broadcast :"anos de experiência como técnica de sistemas",
+            counting_projects :"projetos",
+            counting_course :"cursos",
+            skill_heading :"Personalidade",
+            skill_href: "https://www.16personalities.com/br/perfis/fa1aba284420a",
+            skill_progress: [["Extrovertido", 72,"Introvertido"], ["Intuitivo", 78,"Realista"],["Analítico", 56,"Emocional"],["Planejador", 74,"Desbravador"],["Turbulento", 54,"Assertivo"]]
+        };
 
-            //strings: ['Web developer', 'web designer', 'photographer', 'graphic designer'],
-            strings: ['Web', 'C#', 'Vue.Js', 'C++', 'Python' ],
-            typeSpeed: 120,
-            loop: true
+        var lang_en = {
+            nav_logo : "denize",
+            nav_title : "Denize | Personal Portfolio",
+            nav_about : "about",
+            nav_service : "service",
+            nav_portfolio : "portfolio",
+            nav_testimonial : "testimonial",
+            nav_blog : "blog",
+            nav_contact : "contact",
+            nav_language: "PT-Br",
+            home_content_h2 : "hi there!",
+            home_content_h1 : "I Am a <span class='typing-text'></span> developer",
+            home_content_p : "I'm a backend C# developer with experience in .NET, .NET Core, MySQL, and SQL Server. I use Docker for standardized environments and have knowledge of Python, PHP, C++, and C. I'm familiar with AWS, GCP, Terraform, and GitHub Actions. On the frontend, I've worked with HTML, CSS, JavaScript, and Vue.js. I'm proficient in Git/GitHub, SVN, and Jira. I'm eager for new challenges in software development.",
+            home_about_me : "About me ",
+            about_h2 : "My name is Denize",
+            about_p : "As a backend C# developer, I have extensive experience with frameworks like .NET and .NET Core, along with a strong command of databases such as MySQL and SQL Server. I am proficient in ORMs, particularly Entity Framework, and use Docker to create standardized environments, enhancing development efficiency. Although my specialty is C#, I also have knowledge in Python, PHP, C++, C, and other languages. I am continuously expanding my knowledge in cloud technologies, focusing on AWS and GCP, and I integrate infrastructure as code using Terraform, as well as manage CI/CD pipelines with GitHub Actions. My approach includes design patterns like MVC, Factory, Builder, Facade, and Adapter, and a solid understanding of Domain-Driven Design (DDD). On the frontend, I work with HTML, CSS, Vanilla JavaScript, and Vue.js. I am proficient in development tools like Git/GitHub and SVN, and in task management with Jira. I am always ready for new challenges and opportunities to apply my passion for software development.",
+            about_info_h4: ("age: <span>" + idade + "</span>"),
+            about_info_gender: "pronouns: <span>She/her</span>",
+            about_info_language: "language: <span>portuguese/english</span>",
+            about_info_work: "Current Job: <span>Media Support Analyst - ADDigital (TV GLOBO)</span>",
+            about_info_freelance: "Freelance: <span>Available</span>",
+            download_cv: "<a href='assets/downloadables/CV-Denize-English.pdf' download target='_blank' class='btn'>download CV <i class='fas fa-download'></i></a>",
+            counting_exp :"years of experience as developer",
+            counting_exp_broadcast :"years of experience as broadcast technician",
+            counting_projects :"projects",
+            counting_course :"Courses",
+            skill_heading :"personality",
+            skill_href: "https://www.16personalities.com/profiles/fa1aba284420a",
+            skill_progress: [["Extraverted", 72,"Introverted"], ["Intuitive", 78,"Observant"],["Thinking", 56,"Feeling"],["Judging", 74,"Prospecting"],["Turbulent", 54,"Assertive"]]
+        };
+        
+        function check_lang(lang){
+            Object.entries(lang).forEach(([key, value]) => {
+                let adding = "";
+                let original = "";
+                if(value == "I Am a "){
+                    adding = " developer";
+                    original = document.querySelector(`#${key}`).innerHTML;
+                }
+                if(key == "skill_href"){
+                    document.querySelector(`#${key}`).href = value;
+                }else{
+                    document.querySelector(`#${key}`).innerHTML = value + original + adding
+                }
+            })
+        }
+
+       
+        $(document).ready(function(){
+            $("#nav_language").trigger("click")
         });
+        $("#nav_language").on("click", function(){
+            var lang = $("#nav_language").text()
+            if(lang_en.nav_language == lang){
+                check_lang(lang_pt);
+                $("#nav_language").text(lang_pt.nav_language)
+                var typed = new Typed('.typing-text', {
+                    strings: ['Web', 'C#', 'Vue.Js', 'C++', 'Python' ],
+                    typeSpeed: 120,
+                    loop: true
+                });
+            }else{
+                check_lang(lang_en);
+                $("#nav_language").text(lang_en.nav_language)
+                var typed = new Typed('.typing-text', {
+                    strings: ['Web', 'C#', 'Vue.Js', 'C++', 'Python' ],
+                    typeSpeed: 120,
+                    loop: true
+                });
+            }
+        });
+
     </script>
 
 
