@@ -144,15 +144,18 @@
             
         </div>
 
-        <div class="skill-container">
+        <div class="personality-container">
 
             <div class="heading">
-                <a id="skill_href" target="_blank">
-                    <h2 id="skill_heading"></h2>
+                <a id="personality_href" target="_blank">
+                    <h2 id="personality_heading"></h2>
                 </a>
             </div>
     
-            <div class="skills">
+            <div class="traits">
+                <div class="traits-item">
+
+                </div>
                 <!-- <div class="skill-item item1">
                     <div class="box">
                         <h3 id="skill_progress"></h3>
@@ -731,9 +734,6 @@
     <!-- JQuery -->
     <script src="assets/vendors/jquery/jquery-3.6.0.js"></script>
 
-    <!-- LANGUAGES JS -->
-    <script src="assets/js/change-lang.js"></script>
-
     <!-- SWIPER JS -->
     <script src="assets/vendors/swiper/swiper.js"></script>
 
@@ -782,9 +782,9 @@
             counting_exp_broadcast :"anos de experiência como técnica de sistemas",
             counting_projects :"projetos",
             counting_course :"cursos",
-            skill_heading :"Personalidade",
-            skill_href: "https://www.16personalities.com/br/perfis/fa1aba284420a",
-            skill_progress: [["Extrovertido", 72,"Introvertido"], ["Intuitivo", 78,"Realista"],["Analítico", 56,"Emocional"],["Planejador", 74,"Desbravador"],["Turbulento", 54,"Assertivo"]]
+            personality_heading :"Personalidade",
+            personality_href: "https://www.16personalities.com/br/perfis/fa1aba284420a",
+            personality_progress: [["Extrovertido", 72,"Introvertido"], ["Intuitivo", 78,"Realista"],["Analítico", 56,"Emocional"],["Planejador", 74,"Desbravador"],["Turbulento", 54,"Assertivo"]]
         };
 
         var lang_en = {
@@ -813,23 +813,31 @@
             counting_exp_broadcast :"years of experience as broadcast technician",
             counting_projects :"projects",
             counting_course :"Courses",
-            skill_heading :"personality",
-            skill_href: "https://www.16personalities.com/profiles/fa1aba284420a",
-            skill_progress: [["Extraverted", 72,"Introverted"], ["Intuitive", 78,"Observant"],["Thinking", 56,"Feeling"],["Judging", 74,"Prospecting"],["Turbulent", 54,"Assertive"]]
+            personality_heading :"personality",
+            personality_href: "https://www.16personalities.com/profiles/fa1aba284420a",
+            personality_progress: [["Extraverted", 72,"Introverted"], ["Intuitive", 78,"Observant"],["Thinking", 56,"Feeling"],["Judging", 74,"Prospecting"],["Turbulent", 54,"Assertive"]]
         };
         
         function check_lang(lang){
             Object.entries(lang).forEach(([key, value]) => {
-                let adding = "";
-                let original = "";
-                if(value == "I Am a "){
-                    adding = " developer";
-                    original = document.querySelector(`#${key}`).innerHTML;
-                }
-                if(key == "skill_href"){
+                if(key == "personality_href"){
                     document.querySelector(`#${key}`).href = value;
                 }else{
-                    document.querySelector(`#${key}`).innerHTML = value + original + adding
+                    if(key == "personality_progress"){
+                        var itens = "";
+                        value.forEach(function(traits){
+                            itens += `<div class="box">
+                                        <h3>${traits[0]} ${traits[1]}%<span> ${traits[2]} </span></h3>
+                                        <div class="progress-bar">
+                                            <span style="width: ${traits[1]}%;"></span>
+                                        </div>
+                                    </div>`;
+
+                        })
+                        document.querySelector(".traits-item").innerHTML = itens
+                    }else{
+                        document.querySelector(`#${key}`).innerHTML = value;
+                    }
                 }
             })
         }
@@ -838,6 +846,7 @@
         $(document).ready(function(){
             $("#nav_language").trigger("click")
         });
+
         $("#nav_language").on("click", function(){
             var lang = $("#nav_language").text()
             if(lang_en.nav_language == lang){

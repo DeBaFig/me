@@ -428,11 +428,13 @@ header #menu-btn:hover{
     color: var(--white);
 }
 
-.skill-container{
+.personality-container{
+    display: grid;
+    place-items: center;
     padding: 2rem 0;
 }
 
-.skills{
+.traits{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -440,18 +442,18 @@ header #menu-btn:hover{
         flex-wrap: wrap;
 }
 
-.skill-item{
-    -webkit-box-flex: 1;
+.traits-item{
+    -webkit-box-flex: 2;
     -ms-flex: 1 1 30rem;
         flex: 1 1 30rem;
     margin-right: 1.5rem;
 }
 
-.skill-item .box{
+.traits-item .box{
     padding:1rem 0;
 }
 
- .skill-item .box h3{
+ .traits-item .box h3{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -464,7 +466,7 @@ header #menu-btn:hover{
     font-weight: 400;
 }
 
- .skill-item .box .progress-bar{
+ .traits-item .box .progress-bar{
     width:100%;
     background:#222;
     overflow:hidden;
@@ -472,33 +474,33 @@ header #menu-btn:hover{
     border-radius: 50rem;
 }
 
- .skill-item .box .progress-bar span{
+ .traits-item .box .progress-bar span{
     display:block;
     height:100%;
     background: var(--purple);
 }
 
- .skill-item.item1 .box:nth-child(1) .progress-bar span{
+ .skill-item .box:nth-child(1) .progress-bar span{
     width:95%;
 }
 
- .skill-item.item1 .box:nth-child(2) .progress-bar span{
+ .skill-item .box:nth-child(2) .progress-bar span{
     width:90%;
 }
 
- .skill-item.item1 .box:nth-child(3) .progress-bar span{
+ .skill-item .box:nth-child(3) .progress-bar span{
     width:85%;
 }
 
-.skill-item.item2 .box:nth-child(1) .progress-bar span{
+.skill-item .box:nth-child(1) .progress-bar span{
     width:75%;
 }
 
- .skill-item.item2 .box:nth-child(2) .progress-bar span{
+ .skill-item .box:nth-child(2) .progress-bar span{
     width:65%;
 }
 
- .skill-item.item2 .box:nth-child(3) .progress-bar span{
+ .skill-item .box:nth-child(3) .progress-bar span{
     width:60%;
 }
 
