@@ -167,50 +167,9 @@
             <h2>my <span>services</span></h2>
         </div>
 
-        <div class="box-container">
+        <div class="box-container service-item">
 
-            <div class="service-item">
-                <i class="fas fa-code"></i>
-                <h3>web design</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Ex repellendus porro facilis.</p>
-            </div>
-
-            <div class="service-item">
-                <i class="fas fa-paint-brush"></i>
-                <h3>graphic design</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Ex repellendus porro facilis.</p>
-            </div>
-
-            <div class="service-item">
-                <i class="fas fa-camera"></i>
-                <h3>photography</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Ex repellendus porro facilis.</p>
-            </div>
-
-            <div class="service-item">
-                <i class="fas fa-bullhorn"></i>
-                <h3>digital marketing</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Ex repellendus porro facilis.</p>
-            </div>
-
-            <div class="service-item">
-                <i class="far fa-file-video"></i>
-                <h3>video editing</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Ex repellendus porro facilis.</p>
-            </div>
-
-            <div class="service-item">
-                <i class="fas fa-search-dollar"></i>
-                <h3>SEO Marketing</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Ex repellendus porro facilis.</p>
-            </div>
-
+            
         </div>
 
     </section>
@@ -518,26 +477,22 @@
     <section class="contact" id="contact">
 
         <div class="heading">
-            <h2><span>contact</span> me</h2>
+            <h2 id="contact_info_h2"><span>contact</span> me</h2>
         </div>
 
         <div class="box-container">
 
             <div class="contact-info">
 
-                <h3>get in touch</h3>
+                <h3 id="contact_info_h3">get in touch</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p id="contact_info_p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     
                 <div class="info-item">
-                    <h4>Phone:</h4>
+                    <h4 id="info_item_h4">Phone:</h4>
                     <div class="detail">
                         <div class="fas fa-phone"></div>
-                        <p>+123-456-789</p>
-                    </div>
-                    <div class="detail">
-                        <div class="fas fa-phone"></div>
-                        <p>+111-222-333</p>
+                        <p>+55 47 935051914</p>
                     </div>
                 </div>
     
@@ -545,11 +500,11 @@
                     <h4>email:</h4>
                     <div class="detail">
                         <div class="fas fa-envelope"></div>
-                        <p class="gmail">abc@gmail.com</p>
+                        <p class="gmail">denize.f.bassi@gmail.com</p>
                     </div>
                     <div class="detail">
                         <div class="fas fa-envelope"></div>
-                        <p class="gmail">xyz@gmail.com</p>
+                        <p class="gmail">denize.services.solutions@gmail.com</p>
                     </div>
                 </div>
 
@@ -557,7 +512,7 @@
                     <h4>linkedin:</h4>
                     <div class="detail">
                         <div class="fab fa-linkedin"></div>
-                        <p class="linkedin">https://www.linkedin.com/</p>
+                        <p class="linkedin">https://www.linkedin.com/in/dbfigueiredo/</p>
                     </div>
                 </div>
 
@@ -565,17 +520,17 @@
                     <h4>github:</h4>
                     <div class="detail">
                         <div class="fab fa-github"></div>
-                        <p class="github">https://github.com/</p>
+                        <p class="github">https://github.com/debafig</p>
                     </div>
                 </div>
             </div>
     
-            <form method="post" class="contact-form" id="contactUs-Form">
+            <form method="post" class="contact-form" id="contactUs-Form" action="https://formspree.io/f/mwkynyak" method="POST">
                     
-                <input type="text" name="name" class="box" id="name" placeholder="name" required />
+                <input type="text" name="personal-site-subject" class="box" id="name" placeholder="name" required />
                 <input type="email" name="email" class="box" id="email" placeholder="email" required />
                 <input type="text" name="subject" class="box" id="subject" placeholder="subject" required />
-                <textarea cols="30" rows="10" name="comment" id="comment" class="box" placeholder="message"></textarea>
+                <textarea cols="30" rows="10" name="message" id="comment" class="box" placeholder="message"></textarea>
                 <button type="submit" class="btn" name="submit" id="submit">send message</button>
                 
                 <span class="alert" id="msg"></span>
@@ -592,8 +547,8 @@
     <!-------------------- Footer Area (Start) -------------------->
     <footer>
         <div class="social">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.facebook.com/d.bassi91?locale=pt_BR" class="fab fa-facebook-f"></a>
+            <a href="https://x.com/BassiDenize" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin-in"></a>
         </div>
@@ -668,7 +623,19 @@
                 ["2023 - 2024","Desenvolvedora Web Full Stack","Como desenvolvedora, contribui para o ciclo de vida do software, focando em novas funcionalidades e otimizações com tecnologias modernas do .NET Core, como tarefas assíncronas, EF6 e HttpClient."], 
                 ["2014 - 2019","Técnico de Sistemas Audiovisuais","Coordenei a transição de sistema na Globo Rio, garantindo qualidade e sem interrupções. No tráfego de sinais, participei de eventos como Carnaval e Copa do Mundo, focando em entregas rápidas e de alta qualidade."], 
                 ["2013 - 2014", "Operadora de VideoTape","Trabalhei como operadora de Videotape no BBB13, destacando-me pela qualidade e rapidez, o que me levou a ser indicada para uma vaga efetiva."],
-            ]
+            ],
+            services: [
+                ["code","web design","Eu crio sites responsivos e visualmente atraentes que proporcionam uma experiência ideal ao usuário em diversos os dispositivos"],
+                ["headset", "remote tecnical support","Ofereço suporte técnico remoto para diagnosticar e resolver problemas de TI de forma eficiente."],
+                ["database", "database management","Gerencio e otimizo bancos de dados para garantir a integridade, segurança e desempenho dos dados."],
+                ["cloud", "cloud services","Ofereço soluções em nuvem para aumentar a escalabilidade, flexibilidade e colaboração nas empresas."],
+                ["cogs", "software development","Desenvolvo soluções de software personalizadas, adaptadas para atender às necessidades específicas de negócios e melhorar a eficiência operacional."],
+                ["brain", "developer stellar", "Desenvolvimento na blockchain Stellar, criando aplicações descentralizadas e contratos inteligentes para transações seguras e eficientes."],
+            ],
+            contact_info_h2:"Fale <span>comigo</span>",
+            contact_info_h3: "fale comigo",
+            contact_info_p: "Conecte-se comigo para transformar ideias em soluções digitais inteligentes.",
+            info_item_h4: "Telefone:",
         };
 
         var lang_en = {
@@ -708,9 +675,33 @@
                 ["2023 - 2024", "Web Developer Full Stack .NET / C# / Vue.JS","I actively contribute to the full software lifecycle, leveraging modern .NET Core technologies to build efficient, high-quality solutions."],
                 ["2014 - 2019", " Audiovisual Systems Technician","I helped the broadcast system transition at Globo Rio, ensuring uninterrupted programming and high-quality signal delivery during major events like Carnival and the World Cup."],
                 ["2013 - 2014", "Videotape Operator","I worked as a Videotape Operator on BBB13, excelling in quality and speed, which earned me a recommendation for a permanent position."],
-            ]
+            ],
+            services: [
+                ["code","web design","I create responsive and visually appealing websites that provide an optimal user experience across many devices."],
+                ["headset", "remote tecnical support","I offer remote technical support to troubleshoot and resolve IT issues efficiently."],
+                ["database", "database management","I manage and optimize databases to ensure data integrity, security, and performance."],
+                ["cloud", "cloud services","I provide cloud solutions to enhance scalability, flexibility, and collaboration for businesses."],
+                ["cogs", "software development","I develop custom software solutions tailored to meet specific business needs and improve operational efficiency."],
+                ["brain", "developer stellar", "Stellar blockchain development, creating decentralized applications and smart contracts for secure and efficient transactions."],
+            ],
+            contact_info_h2:"<span>contact</span> me",
+            contact_info_h3: "get in touch",
+            contact_info_p: "Connect with me to transform ideas into smart digital solutions.",
+            info_item_h4: "Phone:",
         };
         
+        function services(lang){
+            var itens = "";
+            lang.forEach(function(service){
+                itens += `<div class="service-item">
+                            <i class="fas fa-${service[0]}"></i>
+                            <h3>${service[1]}</h3>
+                            <p>${service[2]}</p>
+                        </div>`;
+            })
+            document.querySelector(".service .box-container").innerHTML = itens
+        }
+
         function check_lang(lang){
             Object.entries(lang).forEach(([key, value]) => {
                 if(key == "personality_href"){
@@ -749,6 +740,17 @@
                                     </div>`;
                         })
                         document.querySelector(key == "education_item" ? ".education" : ".experience").innerHTML = itens
+                    }else if (key == "services") {
+                        value.forEach(function(services){
+                            itens += `<div class="service-item">
+                                        <i class="fas fa-${services[0]}"></i>
+                                        <div class="content">
+                                            <h3>${services[1]}</h3>
+                                            <p>${services[2]}</p>
+                                        </div>
+                                    </div>`;
+                        })
+                        document.querySelector(".service-item").innerHTML = itens
                     } else{
                         document.querySelector(`#${key}`).innerHTML = value;
                     }
